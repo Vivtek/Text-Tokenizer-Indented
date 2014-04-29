@@ -3,7 +3,7 @@ use strict;
 use warnings FATAL => 'all';
 use ExtUtils::MakeMaker;
 
-WriteMakefile1(
+WriteMakefile(
     NAME             => 'Text::Tokenize::Indented',
     AUTHOR           => q{Michael Roberts <michael@vivtek.com>},
     VERSION_FROM     => 'lib/Text/Tokenize/Indented.pm',
